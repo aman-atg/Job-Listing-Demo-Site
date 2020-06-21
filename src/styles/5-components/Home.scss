@@ -1,0 +1,10 @@
+.header {
+  background: $primary-cyan;
+  overflow: hidden;
+  @include no-gutter;
+}
+
+.body {
+  min-height: 100vh;
+  background: $bg;
+}

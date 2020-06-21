@@ -1,0 +1,16 @@
+// MEDIA-QUERIES
+
+// mobile
+$mobile-down-query: "only screen and (max-width : #{$mobile})";
+$mobile-up-query: "only screen and (min-width : #{$mobile})";
+
+// tablet
+$tablet-down-query: "only screen and (max-width : #{$tablet})";
+$tablet-up-query: "only screen and (min-width : #{$tablet})";
+
+// desktop
+$desktop-down-query: "only screen and (max-width : #{$desktop})";
+$desktop-up-query: "only screen and (min-width : #{$desktop})";
+
+// big-desktop
+$big-desktop-up-query: "only screen and (min-width : #{$big-desktop})";

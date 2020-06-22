@@ -1,4 +1,17 @@
 .Card {
+  // draw line
+  &.featured {
+    position: relative;
+    overflow: hidden;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 5px;
+      background: $primary-cyan;
+    }
+  }
   background: #fff;
   border-radius: 8px;
   display: flex;
@@ -6,7 +19,7 @@
   padding: 2.2rem 2rem;
   @include fc(1, 0);
   &-header {
-    width: 10%;
+    width: 11%;
     // background-color: blue;
   }
   &-body {
@@ -17,6 +30,7 @@
       font-size: $font-size * 0.9;
       font-weight: 700;
       .company {
+        color: $primary-cyan;
       }
       .labels {
         text-transform: uppercase;
@@ -30,12 +44,21 @@
     .footer {
       color: $gray;
       font-size: $font-size * 0.95;
-
-      //use before and overflow hidden to give each of them a dot
+      display: flex;
+      li {
+        &:nth-of-type(1) {
+          list-style: none;
+        }
+        width: max-content;
+        list-style-type: disc;
+        padding-right: 3.5%;
+        position: relative;
+      }
     }
     h1 {
       // background: #223399;
-      font-size: $font-size * 1.2;
+      color: $black;
+      font-size: 1.15rem;
       @include no-gutter(2.5);
     }
   }
@@ -43,5 +66,17 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    font-size: $font-size * 0.9;
+    li {
+      cursor: pointer;
+      margin-right: 15px;
+      background: $secondary-cyan;
+      color: $primary-cyan;
+      font-weight: 700;
+      padding: 7.5px;
+      padding-top: 10px;
+      border-radius: 5px;
+      line-height: 1;
+    }
   }
 }

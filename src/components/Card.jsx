@@ -1,5 +1,5 @@
 import React from "react";
-
+import classNames from "classnames";
 const Card = props => {
   const {
     company,
@@ -14,9 +14,9 @@ const Card = props => {
     languages,
     tools,
   } = props;
-
+  const classes = classNames({ featured }, "Card");
   return (
-    <div className="Card">
+    <div className={classes}>
       <div className="Card-header">
         <img src={logo} alt="Logo" />
       </div>
@@ -29,11 +29,17 @@ const Card = props => {
         </div>
         <h1>{position}</h1>
         <div className="footer">
-          {postedAt} {contract} {location}
+          <li>{postedAt}</li>
+          <li>{contract}</li>
+          <li>{location}</li>
         </div>
       </div>
 
-      <div className="Card-footer">{languages}</div>
+      <div className="Card-footer">
+        {languages.map((lang, i) => (
+          <li key={i}>{lang}</li>
+        ))}
+      </div>
     </div>
   );
 };

@@ -1,10 +1,5 @@
-/* Returns default space if no argument is passed else default space + argument */
-@function space($x: 0rem) {
-  @return calc(#{$x} + #{$default-space});
-}
-
-@mixin no-gutter {
+@mixin no-gutter($lh: 0) {
   margin: 0;
   padding: 0;
-  line-height: 0;
+  line-height: $lh;
 }

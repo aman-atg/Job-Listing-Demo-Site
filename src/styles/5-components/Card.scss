@@ -1,5 +1,13 @@
 .Card {
-  // draw line
+  @include fc(1, 0);
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 1.71rem 2.8rem;
+  box-shadow: 0.5px 10px 10px rgba($color: $primary-cyan, $alpha: 0.2);
+
+  // draw left line
   &.featured {
     position: relative;
     overflow: hidden;
@@ -12,12 +20,7 @@
       background: $primary-cyan;
     }
   }
-  background: #fff;
-  border-radius: 8px;
-  display: flex;
-  margin-bottom: 20px;
-  padding: 2.2rem 2rem;
-  @include fc(1, 0);
+
   &-header {
     width: 11%;
     // background-color: blue;

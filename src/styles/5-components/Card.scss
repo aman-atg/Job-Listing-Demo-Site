@@ -1,0 +1,47 @@
+.Card {
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 2.2rem 2rem;
+  @include fc(1, 0);
+  &-header {
+    width: 10%;
+    // background-color: blue;
+  }
+  &-body {
+    flex: 1;
+    .heading {
+      display: flex;
+      align-items: center;
+      font-size: $font-size * 0.9;
+      font-weight: 700;
+      .company {
+      }
+      .labels {
+        text-transform: uppercase;
+        margin-left: 15px;
+        font-size: $font-size * 0.8;
+        .label {
+          //
+        }
+      }
+    }
+    .footer {
+      color: $gray;
+      font-size: $font-size * 0.95;
+
+      //use before and overflow hidden to give each of them a dot
+    }
+    h1 {
+      // background: #223399;
+      font-size: $font-size * 1.2;
+      @include no-gutter(2.5);
+    }
+  }
+  &-footer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -13,6 +13,7 @@ const Card = props => {
     location,
     languages,
     tools,
+    addTerm,
   } = props;
   const classes = classNames({ featured }, "Card");
 
@@ -41,7 +42,9 @@ const Card = props => {
 
       <div className="Card-footer">
         {tablets.map((t, i) => (
-          <li key={i}>{t}</li>
+          <li onClick={() => addTerm(t)} key={i}>
+            {t}
+          </li>
         ))}
       </div>
     </div>

@@ -14,3 +14,20 @@ $desktop-up-query: "only screen and (min-width : #{$desktop})";
 
 // big-desktop
 $big-desktop-up-query: "only screen and (min-width : #{$big-desktop})";
+
+@mixin mdq {
+  @media #{$mobile-down-query} {
+    @content;
+  }
+}
+@mixin tdq {
+  @media #{$tablet-down-query} {
+    @content;
+  }
+}
+
+@mixin ddq {
+  @media #{$desktop-down-query} {
+    @content;
+  }
+}

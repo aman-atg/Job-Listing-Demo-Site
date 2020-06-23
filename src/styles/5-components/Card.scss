@@ -7,10 +7,10 @@
   padding: 1.71rem 2.8rem;
   box-shadow: 0.5px 10px 10px rgba($color: $primary-cyan, $alpha: 0.2);
   overflow: hidden;
+  position: relative;
 
   // draw left line
   &.featured {
-    position: relative;
     &::before {
       content: "";
       position: absolute;
@@ -23,10 +23,8 @@
 
   &-header {
     margin-right: 25px;
-    // background-color: blue;
   }
   &-body {
-    margin-right: 20px;
     .heading {
       display: flex;
       align-items: center;
@@ -148,6 +146,19 @@
     }
     &-body {
       margin-top: 20px;
+    }
+  }
+}
+@include mdq() {
+  .Card {
+    .heading {
+      .labels {
+        display: flex;
+        margin: 0;
+        .label {
+          display: block;
+        }
+      }
     }
   }
 }

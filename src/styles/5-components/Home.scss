@@ -1,16 +1,18 @@
 .header {
-  background: $primary-cyan;
+  width: 100%;
+  background: url("/images/bg-header-desktop.svg") $primary-cyan;
+  background-size: cover;
+  height: 180px;
   overflow: hidden;
-  @include no-gutter;
+  @include tdq() {
+    background-image: url("/images/bg-header-mobile.svg");
+  }
+  // @include no-gutter;
 }
 
 .body {
   min-height: 100vh;
   background: $bg;
-  padding: 6% 10%;
+  padding: 6rem 10rem;
   font-family: $font-1;
-}
-
-.CardList {
-  //
 }

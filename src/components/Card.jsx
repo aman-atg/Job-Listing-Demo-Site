@@ -15,6 +15,9 @@ const Card = props => {
     tools,
   } = props;
   const classes = classNames({ featured }, "Card");
+
+  const tablets = [role, level, ...languages, ...tools];
+
   return (
     <div className={classes}>
       <div className="Card-header">
@@ -24,7 +27,8 @@ const Card = props => {
         <div className="heading">
           <span className="company">{company} </span>
           <div className="labels">
-            New<span>{featured}</span>
+            {props.new ? <span className="label new">new! </span> : null}
+            {featured ? <span className="label">featured </span> : null}
           </div>
         </div>
         <h1>{position}</h1>
@@ -36,8 +40,8 @@ const Card = props => {
       </div>
 
       <div className="Card-footer">
-        {languages.map((lang, i) => (
-          <li key={i}>{lang}</li>
+        {tablets.map((t, i) => (
+          <li key={i}>{t}</li>
         ))}
       </div>
     </div>

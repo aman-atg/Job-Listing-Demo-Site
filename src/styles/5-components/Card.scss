@@ -92,6 +92,11 @@
       border-radius: 5px;
       margin-bottom: 15px;
       line-height: 1;
+
+      &:hover {
+        background: $primary-cyan;
+        color: white;
+      }
     }
   }
 }

@@ -1,0 +1,50 @@
+.SearchBar {
+  position: relative;
+  background: #ffffff;
+  border-radius: 7px;
+  padding: 1.2rem 3rem;
+  z-index: 100;
+  top: -100px;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  .terms {
+    display: flex;
+    p {
+      @include fc(1, 0);
+      background: $bg;
+      color: $primary-cyan;
+      font-weight: 700;
+      padding-left: 8px;
+      border-radius: 5px;
+      box-shadow: 0 0 2.5px rgba($color: #000000, $alpha: 0.15);
+      span {
+        margin-left: 8px;
+        font-weight: 500;
+        color: white;
+        background: $primary-cyan;
+        display: inline-block;
+        line-height: 1;
+        font-size: 1.5rem;
+        text-align: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 8px 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        &:hover {
+          background: $black;
+        }
+      }
+    }
+  }
+  .clear {
+    color: $primary-cyan;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: {
+      left: 20px;
+    }
+  }
+}

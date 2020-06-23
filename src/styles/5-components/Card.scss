@@ -6,11 +6,11 @@
   margin-bottom: 20px;
   padding: 1.71rem 2.8rem;
   box-shadow: 0.5px 10px 10px rgba($color: $primary-cyan, $alpha: 0.2);
+  overflow: hidden;
 
   // draw left line
   &.featured {
     position: relative;
-    overflow: hidden;
     &::before {
       content: "";
       position: absolute;
@@ -22,7 +22,7 @@
   }
 
   &-header {
-    width: 11%;
+    margin-right: 25px;
     // background-color: blue;
   }
   &-body {
@@ -66,8 +66,10 @@
     }
   }
   &-footer {
+    margin-left: 15px;
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     font-size: $font-size * 0.9;
     li {
@@ -79,6 +81,7 @@
       padding: 7.5px;
       padding-top: 10px;
       border-radius: 5px;
+      margin-bottom: 10px;
       line-height: 1;
     }
   }

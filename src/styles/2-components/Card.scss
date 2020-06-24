@@ -1,4 +1,8 @@
 .Card {
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.01);
+  }
   @include fc(1, 0);
   background: #fff;
   border-radius: 5px;

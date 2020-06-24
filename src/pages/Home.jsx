@@ -18,6 +18,13 @@ const Home = () => {
     else setTerms(terms.filter(t => t !== term));
   };
 
+  const getCardStyles = (isDragging, styles) => {
+    if (isDragging)
+      return {
+        ...styles,
+        boxShadow: "5px 5px 5px hsla(180, 29%, 50%,0.1)",
+      };
+  };
   const Cards = data.map((card, i) => {
     const cardWithDraggable = (
       <Draggable key={card.id} draggableId={card.logo} index={i}>
@@ -26,6 +33,10 @@ const Home = () => {
             ref={provided.innerRef}
             {...provided.draggableProps}
             {...provided.dragHandleProps}
+            style={getCardStyles(
+              snapshot.isDragging,
+              provided.draggableProps.style
+            )}
           >
             <Card
               index={i}

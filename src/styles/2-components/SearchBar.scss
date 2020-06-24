@@ -3,20 +3,23 @@
   transform: translateX(-800px);
   transition: 1s transform, 0.5s opacity;
   min-height: 60px;
-  &.active {
-    transform: translateX(0);
-    opacity: 1;
-  }
+
   position: relative;
+  top: -90px;
+  @include tdq {
+    top: -60px;
+  }
+  &.active {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+
   background: #ffffff;
   border-radius: 7px;
   padding: 1rem 25px 0 25px;
   z-index: 100;
-  top: -125px;
   overflow: auto;
-  @include tdq {
-    top: -90px;
-  }
+
   display: grid;
   grid-template-columns: 1fr max-content;
   .terms {

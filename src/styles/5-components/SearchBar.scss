@@ -1,4 +1,12 @@
 .SearchBar {
+  opacity: 0;
+  transform: translateX(-800px);
+  transition: 1s transform, 0.5s opacity;
+  min-height: 60px;
+  &.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
   position: relative;
   background: #ffffff;
   border-radius: 7px;

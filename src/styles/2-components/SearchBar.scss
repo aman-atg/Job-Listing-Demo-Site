@@ -1,9 +1,9 @@
 .SearchBar {
   opacity: 0;
   transform: translateX(-800px);
-  transition: 1s transform, 0.5s opacity;
+  transition: 0.7s transform, 0.5s opacity;
   min-height: 60px;
-
+  box-shadow: 0.5px 10px 10px rgba($color: $primary-cyan, $alpha: 0.2);
   position: relative;
   top: -90px;
   @include tdq {
@@ -66,6 +66,22 @@
     font-size: 0.9rem;
     margin: {
       left: 15px;
+    }
+  }
+}
+@include mdq {
+  .SearchBar.active + div > div {
+    margin-top: -80px;
+  }
+  .SearchBar {
+    font-size: 0.9rem;
+    p {
+      span {
+        svg {
+          width: 30px !important;
+          height: 25px !important;
+        }
+      }
     }
   }
 }

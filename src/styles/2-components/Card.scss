@@ -1,7 +1,11 @@
 .Card {
   transition: transform 0.3s;
+  transform: scale(0.98);
   &:hover {
-    transform: scale(1.01);
+    transform: scale(1);
+  }
+  @-moz-document url-prefix() {
+    transform: scale(1);
   }
   @include fc(1, 0);
   background: #fff;
@@ -32,6 +36,7 @@
     width: 100%;
     max-width: 20rem;
     h1 {
+      width: max-content;
       cursor: pointer;
       &:hover {
         color: $primary-cyan;

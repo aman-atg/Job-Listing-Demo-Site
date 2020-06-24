@@ -2,8 +2,7 @@
   position: relative;
   background: #ffffff;
   border-radius: 7px;
-  padding: 1rem 3rem;
-  padding-bottom: 0;
+  padding: 1rem 25px 0 25px;
   z-index: 100;
   top: -125px;
   display: grid;
@@ -32,8 +31,8 @@
         transition: all 0.3s;
         cursor: pointer;
         svg {
-          width: 50px;
-          height: 40px;
+          width: 40px;
+          height: 30px;
         }
         &:hover {
           background: $black;
@@ -42,13 +41,16 @@
     }
   }
   .clear {
-    color: $primary-cyan;
-    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+    color: $gray;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 0.9rem;
     margin: {
-      left: 20px;
+      left: 15px;
     }
   }
 }

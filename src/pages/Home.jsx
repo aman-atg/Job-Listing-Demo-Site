@@ -36,8 +36,8 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="header"></div>
-      <SearchBar terms={terms} clear={clear} />
       <div className="body">
+        <SearchBar terms={terms} clear={clear} />
         <div className="CardList">{Cards}</div>
       </div>
     </div>

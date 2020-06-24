@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as XIcon } from "../assets/x.svg";
 const SearchBar = ({ terms, clear }) => {
   return (
     <div className="SearchBar">
@@ -6,7 +7,13 @@ const SearchBar = ({ terms, clear }) => {
         {terms.map((term, i) => (
           <p key={i}>
             {term}
-            <span onClick={() => clear(term)}>❌</span>
+            <span
+              role="img"
+              aria-label="remove search term"
+              onClick={() => clear(term)}
+            >
+              <XIcon />
+            </span>
           </p>
         ))}
       </div>

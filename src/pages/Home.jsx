@@ -38,7 +38,7 @@ const Home = () => {
       <div className="header"></div>
       <div className="body">
         <SearchBar terms={terms} clear={clear} />
-        <div className="CardList">{Cards}</div>
+        <div className="cardList">{Cards}</div>
       </div>
     </div>
   );

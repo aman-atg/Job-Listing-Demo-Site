@@ -179,10 +179,6 @@
 }
 @include mdq() {
   .Card {
-    // font-size: 0.8rem;
-    // * {
-    //   font-size: inherit !important;
-    // }
     h1 {
       line-height: 1;
       margin-bottom: 10px;
@@ -208,7 +204,6 @@
         justify-content: start;
         li {
           line-height: 1;
-          margin-right: 10px;
         }
       }
     }

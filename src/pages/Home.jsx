@@ -19,20 +19,27 @@ const Home = () => {
   };
 
   const Cards = data.map((card, i) => {
+    const cardWithDraggable = (
+      <Draggable key={card.id} draggableId={card.logo} index={i}>
+        {(provided, snapshot) => (
+          <div
+            ref={provided.innerRef}
+            {...provided.draggableProps}
+            {...provided.dragHandleProps}
+          >
+            <Card
+              index={i}
+              addTerm={term => addTerm(term)}
+              key={card.id}
+              {...card}
+            />
+          </div>
+        )}
+      </Draggable>
+    );
+
     if (terms.length === 0) {
-      return (
-        <Draggable key={card.id} draggableId={card.logo} index={i}>
-          {(provided, snapshot) => (
-            <div
-              ref={provided.innerRef}
-              {...provided.draggableProps}
-              {...provided.dragHandleProps}
-            >
-              <Card addTerm={term => addTerm(term)} key={card.id} {...card} />
-            </div>
-          )}
-        </Draggable>
-      );
+      return cardWithDraggable;
     }
 
     ///
@@ -44,9 +51,7 @@ const Home = () => {
       if (allTerms.filter(term => t === term).length === 0) flg = 0;
     });
 
-    return flg ? (
-      <Card addTerm={term => addTerm(term)} key={card.id} {...card} />
-    ) : null;
+    return flg ? cardWithDraggable : null;
   });
 
   const reorder = (list, startIndex, endIndex) => {

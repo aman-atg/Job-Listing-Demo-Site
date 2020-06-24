@@ -25,6 +25,8 @@
     margin-right: 25px;
   }
   &-body {
+    width: 100%;
+    max-width: 20rem;
     h1 {
       cursor: pointer;
       &:hover {

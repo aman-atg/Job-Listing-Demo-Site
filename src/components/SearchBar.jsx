@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames";
 
 import { ReactComponent as XIcon } from "../assets/x.svg";
+
 const SearchBar = ({ terms, clear }) => {
   const classes = classNames("SearchBar", { active: !!terms.length });
   return (

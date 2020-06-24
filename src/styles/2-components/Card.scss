@@ -57,6 +57,7 @@
         margin-left: 15px;
         font-size: $font-size * 0.8;
         .label {
+          // font-size: 0.8rem;
           margin-left: 10px;
           padding: 10px;
           padding-bottom: 7px;
@@ -178,16 +179,36 @@
 }
 @include mdq() {
   .Card {
+    // font-size: 0.8rem;
+    // * {
+    //   font-size: inherit !important;
+    // }
     h1 {
       line-height: 1;
       margin-bottom: 10px;
+      font-size: 1rem;
     }
     .heading {
       .labels {
         display: flex;
         margin: 0;
+        font-size: 0.7rem;
         .label {
           display: block;
+          padding: 8px;
+          padding-bottom: 5px;
+        }
+      }
+    }
+    &-body {
+      .footer {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 13.5px;
+        justify-content: start;
+        li {
+          line-height: 1;
+          margin-right: 10px;
         }
       }
     }

@@ -25,6 +25,12 @@
     margin-right: 25px;
   }
   &-body {
+    h1 {
+      cursor: pointer;
+      &:hover {
+        color: $primary-cyan;
+      }
+    }
     .heading {
       display: flex;
       align-items: center;
@@ -57,6 +63,8 @@
       color: $gray;
       font-size: $font-size * 0.95;
       display: flex;
+      justify-content: space-between;
+      // min-width: 5rem;
       li {
         &:nth-of-type(1) {
           list-style: none;
@@ -112,6 +120,9 @@
     }
     &-body {
       grid-area: b;
+      .footer {
+        max-width: 18rem;
+      }
     }
     &-footer {
       grid-area: f;
@@ -156,6 +167,10 @@
 }
 @include mdq() {
   .Card {
+    h1 {
+      line-height: 1;
+      margin-bottom: 10px;
+    }
     .heading {
       .labels {
         display: flex;

@@ -1,3 +1,5 @@
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
@@ -13,14 +15,14 @@
   <p align="center">
   Interactive Site with a list of jobs which can be easily filtered
     <br />
-If you like it ❤ give a star ⭐ 
-  <br/>
+    <h4 align="center">Give a star ⭐ if you like it ❤  </h4>
+    <br/>
     <br />
      :link: <a href="https://job-listing-page.now.sh">  Live Demo</a>
     &#8226; 
-   :bug: <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+   :bug: <a href="https://github.com/aman-atg/Job-Listing-Demo-Site/issues">Report Bug</a>
     &#8226; 
-    :sparkles:<a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    :sparkles:<a href="https://github.com/aman-atg/Job-Listing-Demo/issues">Request Feature</a>
   </p>
 </p>
 
@@ -56,10 +58,11 @@ This is my Solution for Frontend Mentors' Challenge.
 
 ### Built With
 
-- [React](https://reactjs.com)
-- [SCSS](https://sass-lang.com)
-- [React-Beautiful-Dnd](https://github.com/atlassian/react-beautiful-dnd)
-- [Node-sass](https://github.com/sass/node-sass)
+- [React](https://reactjs.com) - A JS library for building user interfaces
+- [SCSS](https://sass-lang.com) - CSS with superpowers
+- [React-Beautiful-Dnd](https://github.com/atlassian/react-beautiful-dnd) - Beautiful and accessible drag and drop for lists with React
+- [Node-sass](https://github.com/sass/node-sass) - Node.js bindings to libsass
+- [Classnames](https://www.npmjs.com/package/classnames) - A simple JavaScript utility for conditionally joining classNames together
 
 <!-- GETTING STARTED -->
 
@@ -119,7 +122,7 @@ Any contributions you make are **greatly appreciated**.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [`LICENSE`][license-url] for more information.
 
 <!-- CONTACT -->
 
@@ -134,12 +137,16 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [UXwing](https://uxwing.com)
 - [Frontend Mentors](http://frontendmentor.io)
 - [Challenge Link](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt)
+- [My Solution](https://www.frontendmentor.io/solutions/animated-job-listing-site-with-drag-and-drop-react-scss-lCamCeYXR)
+  <!-- MARKDOWN LINKS & IMAGES -->
 
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/aman-atg/Job-Listing-Site/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/aman-atg/Job-Listing-Site/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/aman-atg/Job-Listing-Demo-Site.svg?style=flat-square
+[forks-url]: https://github.com/aman-atg/Job-Listing-Demo-Site/network/members
+[stars-shield]: https://img.shields.io/github/stars/aman-atg/Job-Listing-Demo-Site.svg?style=flat-square
+[stars-url]: https://github.com/aman-atg/Job-Listing-Demo-Site/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aman-atg/Job-Listing-Demo-Site.svg?style=flat-square
+[issues-url]: https://github.com/aman-atg/Job-Listing-Demo-Site/issues
+[license-shield]: https://img.shields.io/github/license/aman-atg/Job-Listing-Demo-Site.svg?style=flat-square
+[license-url]: https://github.com/aman-atg/Job-Listing-Site/blob/master/LICENSE
 [preview-0]: Readme/github-preview-0.gif
 [preview-1]: Readme/github-preview-1.gif

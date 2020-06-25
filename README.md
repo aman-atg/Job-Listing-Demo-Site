@@ -13,6 +13,8 @@
   <p align="center">
   Interactive Site with a list of jobs which can be easily filtered
     <br />
+If you like it ❤ give a star ⭐ 
+  <br/>
     <br />
      :link: <a href="https://job-listing-page.now.sh">  Live Demo</a>
     &#8226; 

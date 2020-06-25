@@ -1,6 +1,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+![Maintained](https://img.shields.io/maintenance/yes/2020)
 [![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
@@ -133,11 +134,11 @@ Distributed under the MIT License. See [`LICENSE`][license-url] for more informa
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-
 - [UXwing](https://uxwing.com)
 - [Frontend Mentors](http://frontendmentor.io)
 - [Challenge Link](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt)
 - [My Solution](https://www.frontendmentor.io/solutions/animated-job-listing-site-with-drag-and-drop-react-scss-lCamCeYXR)
+
   <!-- MARKDOWN LINKS & IMAGES -->
 
 [forks-shield]: https://img.shields.io/github/forks/aman-atg/Job-Listing-Demo-Site.svg?style=flat-square
@@ -148,5 +149,3 @@ Distributed under the MIT License. See [`LICENSE`][license-url] for more informa
 [issues-url]: https://github.com/aman-atg/Job-Listing-Demo-Site/issues
 [license-shield]: https://img.shields.io/github/license/aman-atg/Job-Listing-Demo-Site.svg?style=flat-square
 [license-url]: https://github.com/aman-atg/Job-Listing-Site/blob/master/LICENSE
-[preview-0]: Readme/github-preview-0.gif
-[preview-1]: Readme/github-preview-1.gif

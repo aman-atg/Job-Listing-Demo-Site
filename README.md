@@ -18,12 +18,13 @@
     <br />
     <h4 align="center">Give a star ⭐ if you like it ❤  </h4>
     <br/>
-    <br />
-     :link: <a href="https://job-listing-page.now.sh">  Live Demo</a>
+    <p align="center"> 
+    :link: <a href="https://job-listing-page.now.sh">  Live Demo</a>
     &#8226; 
-   :bug: <a href="https://github.com/aman-atg/Job-Listing-Demo-Site/issues">Report Bug</a>
+   :bug: <a href="https://github.com/aman-atg/ Job-Listing-Demo-Site/issues">Report Bug</a>
     &#8226; 
-    :sparkles:<a href="https://github.com/aman-atg/Job-Listing-Demo/issues">Request Feature</a>
+    :sparkles:<a href="https://github.com/aman-atg/Job-Listing-Demo/issues">Request Feature</a></p>
+     
   </p>
 </p>
 
@@ -134,6 +135,7 @@ Distributed under the MIT License. See [`LICENSE`][license-url] for more informa
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
+
 - [UXwing](https://uxwing.com)
 - [Frontend Mentors](http://frontendmentor.io)
 - [Challenge Link](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt)

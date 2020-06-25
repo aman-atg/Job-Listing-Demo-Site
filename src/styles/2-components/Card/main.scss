@@ -1,47 +1,47 @@
+// -> .Card-header , .Card-body, .Card-footer
 .Card {
-  transition: transform 0.3s;
-  transform: scale(0.98);
-  &:hover {
-    transform: scale(1);
-  }
-  @-moz-document url-prefix() {
-    transform: scale(1);
-  }
   @include fc(1, 0);
   background: #fff;
   border-radius: 5px;
+  box-shadow: 0.5px 10px 10px rgba($color: $primary-cyan, $alpha: 0.2);
   display: flex;
   margin-bottom: 20px;
-  padding: 1.71rem 2.8rem;
-  box-shadow: 0.5px 10px 10px rgba($color: $primary-cyan, $alpha: 0.2);
   overflow: hidden;
   position: relative;
+  padding: 1.71rem 2.8rem;
+  transition: transform 0.3s;
+  transform: scale(0.98);
 
-  // draw left line
+  // for Firfox only
+  @-moz-document url-prefix() {
+    transform: scale(1);
+  }
+
+  &:hover {
+    transform: scale(1);
+  }
+
+  // show a line
   &.featured {
     &::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      height: 100%;
-      width: 5px;
       background: $primary-cyan;
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      width: 5px;
     }
   }
 
   &-header {
     margin-right: 25px;
   }
+
+  // -> .heading , .footer , h1
   &-body {
     width: 100%;
     max-width: 20rem;
-    h1 {
-      width: max-content;
-      cursor: pointer;
-      &:hover {
-        color: $primary-cyan;
-      }
-    }
+
     .heading {
       display: flex;
       align-items: center;
@@ -86,29 +86,41 @@
         position: relative;
       }
     }
+
     h1 {
-      color: $black;
-      font-size: 1.15rem;
       @include no-gutter(2.5);
+      color: $black;
+      cursor: pointer;
+      font-size: 1.15rem;
+      width: max-content;
+
+      &:hover {
+        color: $primary-cyan;
+      }
     }
   }
+
+  // -> li
   &-footer {
-    margin-left: 15px;
-    flex: 1;
     display: flex;
+    font-size: $font-size * 0.9;
+    flex: 1;
     flex-wrap: wrap;
     justify-content: flex-end;
-    font-size: $font-size * 0.9;
+    margin-left: 15px;
+
     li {
-      cursor: pointer;
-      margin-right: 15px;
       background: $secondary-cyan;
+      border-radius: 5px;
       color: $primary-cyan;
+      cursor: pointer;
       font-weight: 700;
+      margin: {
+        right: 15px;
+        bottom: 15px;
+      }
       padding: 7.5px;
       padding-top: 10px;
-      border-radius: 5px;
-      margin-bottom: 15px;
       line-height: 1;
 
       &:hover {

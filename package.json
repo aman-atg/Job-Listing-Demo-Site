@@ -10,7 +10,6 @@
     "react": "^16.13.1",
     "react-beautiful-dnd": "^13.0.0",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -34,19 +33,12 @@
       "last 1 safari version"
     ]
   },
-  "description": "- ITCSS - REDUX + THUNK - REACT-ROUTER-DOM - SERVICE-WORKER - THEMING - CLI SUPPORT TO CREATE XYZ - ANIMATION (GSAP)",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "Interactive Site with a list of jobs which can be easily filtered",
   "keywords": [
     "react",
     "scss",
-    "boilerplate",
-    "animation",
-    "react-router-dom",
-    "redux",
-    "thunk",
-    "react-redux"
+    "animation"
   ],
   "author": "Aman Ansari",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }

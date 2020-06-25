@@ -30,6 +30,8 @@
 
 ## Table of Contents
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e18889a4eda14c14b99db048718e411a)](https://app.codacy.com/manual/aman-atg/Job-Listing-Demo-Site?utm_source=github.com&utm_medium=referral&utm_content=aman-atg/Job-Listing-Demo-Site&utm_campaign=Badge_Grade_Dashboard)
+
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)

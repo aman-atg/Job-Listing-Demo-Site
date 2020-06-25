@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/aman-atg/Job-Listing-Demo-Site">
+  <a href="https://job-listing-page.now.sh">
     <img src="Readme/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -92,7 +92,7 @@ npm start
 
 ## Usage
 
-- Explore this Project to see how easily you can implement **_Drag and Drop_** Feature with [React-Beautiful-Dnd](add-link) for your next project.
+- Explore this Project to see how easily you can implement **_Drag and Drop_** Feature with [React-Beautiful-Dnd](https://github.com/atlassian/react-beautiful-dnd) for your next project.
 - Handle Stylesheets using **_ITCSS Architecture_**.
 
 <!-- CONTRIBUTING -->

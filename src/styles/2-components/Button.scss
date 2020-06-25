@@ -1,0 +1,58 @@
+Button.github {
+  top: 30px;
+  left: 30px;
+  position: relative;
+  background: white;
+  padding: 5px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-family: "Spartan";
+  line-height: 1;
+  transition: all 0.3s ease-in;
+  box-shadow: 2.5px 2.5px 5px rgba($color: #000000, $alpha: 0.3);
+  border-radius: 5px;
+  border: 2px solid black;
+  &:hover {
+    background: black;
+    color: white;
+    transform: scale(1.1);
+    padding: 8px;
+    padding-bottom: 6px;
+    box-shadow: 2.5px 2.5px 5px rgba($color: #ffffff, $alpha: 0.4);
+    border-color: white;
+    &::before {
+      transform: scaleX(1);
+      transform-origin: bottom right;
+    }
+    &::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    left: 0;
+    background-color: $black;
+    transition: transform 0.5s ease-out;
+    top: -8px;
+    transform-origin: bottom left;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    left: 0;
+    background-color: $black;
+    transition: transform 0.5s ease-out;
+    bottom: -8px;
+    transform-origin: bottom right;
+  }
+}

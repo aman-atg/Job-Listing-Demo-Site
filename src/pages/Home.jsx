@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="header">
-        <button>
+        <button className="github">
           <a href="https://github.com/aman-atg/Job-Listing-Demo-Site">Github</a>
         </button>
       </div>

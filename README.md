@@ -41,9 +41,16 @@
 
 ## About The Project
 
-[![Product Demo][preview-0]](https://job-listing-page.now.sh)
+This is my Solution for Frontend Mentors' Challenge.
+
+<p align="center">
+
+ <img  src="./Readme/github-preview-0.gif"> 
+<br >
 <br/>
-[![Product Responsive Demo][preview-1]](https://job-listing-page.now.sh)
+<img src="./Readme/github-preview-1.gif"/>
+
+</p>
 
 ### Built With
 

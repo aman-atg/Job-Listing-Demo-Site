@@ -57,6 +57,7 @@
   }
   .clear {
     cursor: pointer;
+    outline: none;
     &:hover {
       text-decoration: underline;
     }

@@ -1,6 +1,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e18889a4eda14c14b99db048718e411a)](https://app.codacy.com/manual/aman-atg/Job-Listing-Demo-Site?utm_source=github.com&utm_medium=referral&utm_content=aman-atg/Job-Listing-Demo-Site&utm_campaign=Badge_Grade_Dashboard)
 ![Maintained](https://img.shields.io/maintenance/yes/2020)
 [![MIT License][license-shield]][license-url]
 
@@ -16,7 +17,7 @@
   <p align="center">
   Interactive Site with a list of jobs which can be easily filtered
     <br />
-    <h4 align="center">Give a star ⭐ if you like it ❤  </h4>
+    <h4 align="center">Give a star ⭐ if you like it ❤️  </h4>
     <br/>
     <p align="center"> 
     :link: <a href="https://job-listing-page.now.sh">  Live Demo</a>
@@ -30,7 +31,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
@@ -45,7 +46,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## :eyes: About The Project
 
 This is my Solution for Frontend Mentors' Challenge.
 
@@ -58,7 +59,7 @@ This is my Solution for Frontend Mentors' Challenge.
 
 </p>
 
-### Built With
+### :hammer: Built With
 
 - [React](https://reactjs.com) - A JS library for building user interfaces
 - [SCSS](https://sass-lang.com) - CSS with superpowers
@@ -68,15 +69,15 @@ This is my Solution for Frontend Mentors' Challenge.
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## 🚀 Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### 💻 Prerequisites
 
 - Node ([Download here!](https://nodejs.org/en/download))
 
-### Installation
+### :arrow_down: Installation
 
 **1.** Fork [this](https://github.com/aman-atg/react-product-card) repository :fork_and_knife:
 
@@ -90,7 +91,7 @@ Or Download and extract the zip file.
 
 ### Running
 
-**1.** Install NPM packages
+**1.** Install NPM packages :arrow_down:
 
 ```sh
 npm install
@@ -104,14 +105,14 @@ npm start
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+## :dart: Usage
 
 - Explore this Project to see how easily you can implement **_Drag and Drop_** Feature with [React-Beautiful-Dnd](https://github.com/atlassian/react-beautiful-dnd) for your next project.
 - Handle Stylesheets using **_ITCSS Architecture_**.
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## 🤝 Contributing
 
 Any contributions you make are **greatly appreciated**.
 
@@ -122,19 +123,19 @@ Any contributions you make are **greatly appreciated**.
 
 <!-- LICENSE -->
 
-## License
+## 📝 License
 
 Distributed under the MIT License. See [`LICENSE`][license-url] for more information.
 
 <!-- CONTACT -->
 
-## Authors
+## :closed_book: Authors
 
 - [Aman Ansari](https://github.com/aman-atg)
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements
+## :checkered_flag: Acknowledgements
 
 - [UXwing](https://uxwing.com)
 - [Frontend Mentors](http://frontendmentor.io)

@@ -41,17 +41,16 @@
   &-body {
     width: 100%;
     max-width: 20rem;
-
     .heading {
       display: flex;
       align-items: center;
       font-size: $font-size * 0.9;
       font-weight: 700;
       margin-bottom: 10px;
-
       .company {
         color: $primary-cyan;
       }
+
       .labels {
         text-transform: uppercase;
         margin-left: 15px;
@@ -71,6 +70,7 @@
         }
       }
     }
+
     .footer {
       color: $gray;
       font-size: $font-size * 0.95;
@@ -108,7 +108,6 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-left: 15px;
-
     li {
       background: $secondary-cyan;
       border-radius: 5px;

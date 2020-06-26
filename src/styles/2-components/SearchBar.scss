@@ -1,88 +1,83 @@
 .SearchBar {
-  opacity: 0;
-  transform: translateX(-800px);
-  transition: 0.7s transform, 0.5s opacity;
+  background: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0.5px 10px 10px rgba($primary-cyan, 0.2);
+  display: grid;
+  grid-template-columns: 1fr max-content;
   min-height: 60px;
-  box-shadow: 0.5px 10px 10px rgba($color: $primary-cyan, $alpha: 0.2);
+  opacity: 0;
+  overflow: auto;
+  padding: 1rem 25px 0 25px;
   position: relative;
   top: -90px;
-  @include tdq {
-    top: -60px;
-  }
+  transform: translateX(-800px);
+  transition: 0.7s transform, 0.5s opacity;
+  z-index: 100;
+
   &.active {
     opacity: 1;
     transform: translateY(-50%);
   }
-
-  background: #ffffff;
-  border-radius: 7px;
-  padding: 1rem 25px 0 25px;
-  z-index: 100;
-  overflow: auto;
-
-  display: grid;
-  grid-template-columns: 1fr max-content;
   .terms {
     display: flex;
     flex-wrap: wrap;
     p {
-      margin: 0;
-      margin-right: 20px;
-      margin-bottom: 1rem;
       @include fc(1, 0);
       background: $bg;
+      border-radius: 5px;
+      box-shadow: 0 0 2.5px rgba(#000000, 0.15);
       color: $primary-cyan;
       font-weight: 700;
+      margin: 0 20px 1rem 0;
       padding-left: 8px;
-      border-radius: 5px;
-      box-shadow: 0 0 2.5px rgba($color: #000000, $alpha: 0.15);
       span {
-        margin-left: 8px;
         background: $primary-cyan;
-        line-height: 0;
-        font-size: 1.4rem;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        transition: all 0.3s;
         cursor: pointer;
+        font-size: 1.4rem;
+        line-height: 0;
+        margin-left: 8px;
+        transition: all 0.3s;
         svg {
           width: 40px;
           height: 30px;
         }
+
         &:hover {
           background: $black;
         }
       }
     }
   }
+
   .clear {
+    color: $gray;
     cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
     outline: none;
+    text-transform: capitalize;
+    transform: translateY(-15%);
+    margin-left: 15px;
+
     &:hover {
       text-decoration: underline;
     }
-    color: $gray;
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 0.9rem;
-    margin: {
-      left: 15px;
-    }
   }
 }
+
+// media-query for tablet-down
 @include tdq {
-  .SearchBar.active + div > div {
-    margin-top: -30px;
-  }
   .SearchBar {
     font-size: 0.9rem;
-    p {
-      span {
-        svg {
-          width: 30px !important;
-          height: 30px !important;
-        }
-      }
+    top: -60px;
+    &.active + div > div {
+      margin-top: -30px;
+    }
+    p span svg {
+      width: 30px !important;
+      height: 30px !important;
     }
   }
 }

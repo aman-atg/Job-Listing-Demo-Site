@@ -96,7 +96,7 @@
         }
         li {
           line-height: 1;
-          margin-right: 10px;
+          margin-right: 11px;
 
           &:nth-of-type(3) {
             margin-right: 0;
@@ -104,5 +104,11 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .Card-body .footer {
+    justify-content: space-between;
   }
 }

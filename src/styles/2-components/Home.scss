@@ -6,6 +6,7 @@
 }
 
 .body {
+  transition: all 1s;
   background: $bg;
   font-family: $font-1;
   min-height: 100vh;
@@ -27,5 +28,11 @@
 
   .cardList {
     margin-top: -65px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .body {
+    padding: 4rem 0.5rem;
   }
 }

@@ -31,7 +31,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents📋 
+## Table of Contents 📋 
 
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
@@ -46,7 +46,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project:eyes: 
+## About The Project :eyes: 
 
 This is my Solution for Frontend Mentors' Challenge.
 
@@ -59,7 +59,7 @@ This is my Solution for Frontend Mentors' Challenge.
 
 </p>
 
-### Built With:hammer:
+### Built With :hammer:
 
 - [React](https://reactjs.com) - A JS library for building user interfaces
 - [SCSS](https://sass-lang.com) - CSS with superpowers
@@ -69,15 +69,15 @@ This is my Solution for Frontend Mentors' Challenge.
 
 <!-- GETTING STARTED -->
 
-## Getting Started🚀 
+## Getting Started 🚀 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites💻 
+### Prerequisites 💻 
 
 - Node ([Download here!](https://nodejs.org/en/download))
 
-### Installation:arrow_down: 
+### Installation :arrow_down: 
 
 **1.** Fork [this](https://github.com/aman-atg/react-product-card) repository :fork_and_knife:
 
@@ -105,14 +105,14 @@ npm start
 
 <!-- USAGE EXAMPLES -->
 
-## Usage:dart: 
+## Usage :dart: 
 
 - Explore this Project to see how easily you can implement **_Drag and Drop_** Feature with [React-Beautiful-Dnd](https://github.com/atlassian/react-beautiful-dnd) for your next project.
 - Handle Stylesheets using **_ITCSS Architecture_**.
 
 <!-- CONTRIBUTING -->
 
-## Contributing🤝 
+## Contributing 🤝 
 
 Any contributions you make are **greatly appreciated**.
 
@@ -123,19 +123,19 @@ Any contributions you make are **greatly appreciated**.
 
 <!-- LICENSE -->
 
-## License📝 
+## License 📝 
 
 Distributed under the MIT License. See [`LICENSE`][license-url] for more information.
 
 <!-- CONTACT -->
 
-## Authors:closed_book: 
+## Authors :closed_book: 
 
 - [Aman Ansari](https://github.com/aman-atg)
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements:checkered_flag: 
+## Acknowledgements :checkered_flag: 
 
 - [UXwing](https://uxwing.com)
 - [Frontend Mentors](http://frontendmentor.io)

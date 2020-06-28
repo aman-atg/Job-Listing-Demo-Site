@@ -39,7 +39,7 @@
   - [Prerequisites](#prerequisites-)
   - [Installation](#installation-arrow_down)
 - [Usage](#usage-dart)
-- [Contributing](#contributing)
+- [Contributing](#contributing-)
 - [License](#license-)
 - [Authors](#authors-closed_book)
 - [Acknowledgements](#acknowledgements-checkered_flag)

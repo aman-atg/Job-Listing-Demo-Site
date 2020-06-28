@@ -33,16 +33,16 @@
 
 ## Table of Contents 📋 
 
-- [About the Project](#about-the-project)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
+- [About the Project](#about-the-project-eyes)
+  - [Built With](#built-with-hammer)
+- [Getting Started](#getting-started-)
+  - [Prerequisites](#prerequisites-)
+  - [Installation](#installation-arrow_down)
+- [Usage](#usage-dart)
+- [Contributing](#contributing-)
+- [License](#license-)
+- [Authors](#authors-closed_book)
+- [Acknowledgements](#acknowledgements-checkered_flag)
 
 <!-- ABOUT THE PROJECT -->
 
